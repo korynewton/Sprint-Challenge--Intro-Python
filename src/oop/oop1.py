@@ -17,3 +17,52 @@
 #     pass
 #
 # Put a comment noting which class is the base class
+
+
+class Vehicle:
+    '''BASE CLASS'''
+
+    def __init__(self):
+        pass
+
+
+class GroundVehicle(Vehicle):
+    '''Inherits from Vehicle class'''
+
+    def __init__(self):
+        pass
+
+
+class Car(GroundVehicle):
+    '''Inherits from GroundVehicle class'''
+
+    def __init__(self):
+        pass
+
+
+class Motorcycle(GroundVehicle):
+    '''Inherits from GroundVehicle class'''
+
+    def __init__(self):
+        pass
+
+
+class FlightVehicle(Vehicle):
+    '''Inherits from Vehicle class'''
+
+    def __init__(self):
+        pass
+
+
+class Starship(FlightVehicle):
+    '''Inherits from FlightVehicle class'''
+
+    def __init__(self):
+        pass
+
+
+class Airplane(FlightVehicle):
+    '''Inherits from FlightVehicle class'''
+
+    def __init__(self):
+        pass
